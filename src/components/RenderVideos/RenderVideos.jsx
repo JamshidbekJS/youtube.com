@@ -11,7 +11,6 @@ const RenderVideos = () => {
     const array = useContext(GetData);
     const Loading = array[1];
     const newArray = array[0];
-    console.log(newArray);
     const [id, setId] = useContext(GetVideoId);
 
     return (
