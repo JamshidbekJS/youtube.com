@@ -22,7 +22,7 @@ const Provider = ({ children }) => {
             }, 3000);
         }
         fetchData();
-    }, search);
+    }, [search]);
 
     return (
         <GetData.Provider value={[images, loading]}>
