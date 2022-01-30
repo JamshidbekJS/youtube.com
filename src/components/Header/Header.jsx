@@ -18,7 +18,6 @@ import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Header = () => {
     const [state, setState] = useContext(GetValue);
-    console.log(state);
     const inputValue = useRef();
     return (
         <header className="header">
